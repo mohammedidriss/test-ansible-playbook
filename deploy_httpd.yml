@@ -1,6 +1,6 @@
 ---
 - name: deploy httpd role
-  hosts: prod
+  hosts: all
   become: true
   roles:
     - httpd
