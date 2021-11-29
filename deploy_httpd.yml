@@ -1,0 +1,7 @@
+---
+- name: deploy httpd role
+  hosts: prod
+  become: true
+  roles:
+    - httpd
+
